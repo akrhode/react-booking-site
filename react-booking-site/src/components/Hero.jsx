@@ -1,13 +1,13 @@
 import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
-import oceanVideo from "../assets/oceanVideo.mp4";
+import ocean from "../assets/ocean.mp4";
 
 const Hero = () => {
   return (
     <div className="w-full h-screen relative">
       <video
         className="w-full h-full object-cover"
-        src={oceanVideo}
+        src={ocean}
         autoPlay
         loop
         muted
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4">
         <h1>Best Deals for Digital Nomads</h1>
         <h2 className="p-4">First Class Accomodations in Europe</h2>
-        <form className="flex justify-between items-center max-w-[600px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100/90">
+        <form className="flex justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100/90">
           <div>
             <input
               className="bg-transparent w-[300px] sm:w-[400px] font-[Poppins] focus:outline-none"

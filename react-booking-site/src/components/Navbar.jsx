@@ -23,14 +23,14 @@ const Navbar = () => {
     <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div>
         <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
-          NomadHomes
+          ExpatDeals
         </h1>
       </div>
       <ul className="hidden md:flex">
-        <li>Home</li>
         <li>Destinations</li>
-        <li>Book</li>
+        <li>Availability</li>
         <li>Countries</li>
+        <li>Testimonials</li>
       </ul>
       <div className="hidden md:flex">
         <BiSearch className="mr-4" size={20} />
@@ -54,11 +54,11 @@ const Navbar = () => {
         }
       >
         <ul>
-          <h1>NomadHomes</h1>
-          <li className="border-b">Home</li>
+          <h1>ExpatDeals</h1>
           <li className="border-b">Destinations</li>
-          <li className="border-b">Book</li>
+          <li className="border-b">Availability</li>
           <li className="border-b">Countries</li>
+          <li className="border-b">Testimonials</li>
           <div className="flex flex-col">
             <button className="my-6">Search</button>
             <button>Account</button>
