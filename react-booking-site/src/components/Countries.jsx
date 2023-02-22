@@ -12,7 +12,7 @@ const Countries = () => {
       <p className="text-center py-4">
         Learn More About Your Dream Destination
       </p>
-      <div className="grid grid-rows-1 md:grid-cols-4 py-4 gap-2 md:gap-4 	">
+      <div className="grid grid-rows-1 lg:grid-cols-4 py-4 gap-2 md:gap-4">
         <Selects bg={Greece} text="Greece" />
         <Selects bg={Italy} text="Italy" />
         <Selects bg={Spain} text="Spain" />
