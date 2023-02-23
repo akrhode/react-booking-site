@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&display=swap");
 
 :root {
-  --primary-dark: #5651e5;
-  --primary-light: #709dff;
+  --primary-dark: #221cda;
+  --primary-light: #70b0ff;
 }
 
 .icon {
@@ -38,6 +38,10 @@
 
   button {
     @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md;
+  }
+
+  .button-book {
+    @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] hover:from-blue-700 hover:to-blue-300 text-white rounded-md;
   }
 
   .icon {

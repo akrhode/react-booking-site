@@ -27,9 +27,9 @@ const Navbar = () => {
         </h1>
       </div>
       <ul className="hidden md:flex">
-        <li>Destinations</li>
-        <li>Availability</li>
         <li>Countries</li>
+        <li>Destinations</li>
+        <li>Book</li>
         <li>Testimonials</li>
       </ul>
       <div className="hidden md:flex">
@@ -55,9 +55,9 @@ const Navbar = () => {
       >
         <ul>
           <h1>ExpatDeals</h1>
-          <li className="border-b">Destinations</li>
-          <li className="border-b">Availability</li>
           <li className="border-b">Countries</li>
+          <li className="border-b">Destinations</li>
+          <li className="border-b">Book</li>
           <li className="border-b">Testimonials</li>
           <div className="flex flex-col">
             <button className="my-6">Search</button>
