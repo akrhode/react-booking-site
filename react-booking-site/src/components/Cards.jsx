@@ -6,7 +6,10 @@ const Cards = () => {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <div className="Searchbar py-16 md:gap-4 sm:gap-8">
-      <h1 className="text-center pb-8"> Destinations</h1>
+      <h1 id="destinations" className="text-center pb-8">
+        {" "}
+        Destinations
+      </h1>
       <form className="flex justify-between items-center max-w-[700px] mx-auto w-full border p-1 rounded-md text-black bg-gray-100/90">
         <div>
           <input
@@ -26,10 +29,10 @@ const Cards = () => {
           />
         </button>
       </form>
-      <div className="Cardscontainer mx-auto py-16 px-8 grid grid-rows-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 md:gap-4 sm:gap-8">
+      <div className="Cardscontainer max-w-[1240]mx-auto py-16 px-8 grid grid-rows-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 md:gap-4 sm:gap-8">
         {data
           .filter((val) => {
-            if (searchTerm == "") {
+            if (searchTerm === "") {
               return val;
             } else if (
               val.title.toLowerCase().includes(searchTerm.toLowerCase())

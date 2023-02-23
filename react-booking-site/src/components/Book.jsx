@@ -4,7 +4,10 @@ import { MdOutlineTravelExplore } from "react-icons/md";
 
 const Book = () => {
   return (
-    <div className="max-w-[1240] mx-auto grid lg:grid-cols-3 gap-4 px-8 py-16">
+    <div
+      id="booking"
+      className="max-w-[1240] mx-auto grid lg:grid-cols-3 gap-4 px-8 py-16"
+    >
       <div className="lg:col-span-2 flex flex-col justify-evenly">
         <div>
           <h2 className="pb-8">BOOK EXCLUSIVE ACCOMODATIONS</h2>
@@ -74,7 +77,9 @@ const Book = () => {
             <label>Check-Out</label>
             <input className="border rounded-md p-2" type="date" />
           </div>
-          <button className="button-book w-full my-4">Rates & Availabilities</button>
+          <button className="button-book w-full my-4">
+            Rates & Availabilities
+          </button>
         </form>
       </div>
     </div>

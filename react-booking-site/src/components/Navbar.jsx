@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { BsPerson } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -27,10 +28,54 @@ const Navbar = () => {
         </h1>
       </div>
       <ul className="hidden md:flex">
-        <li>Countries</li>
-        <li>Destinations</li>
-        <li>Book</li>
-        <li>Testimonials</li>
+        <li>
+          <Link
+            className="no-underline hover:underline underline-offset-8"
+            to="countries"
+            spy={true}
+            smooth={true}
+            offset={-20}
+            duration={500}
+          >
+            Countries
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="no-underline hover:underline underline-offset-8"
+            to="destinations"
+            spy={true}
+            smooth={true}
+            offset={-20}
+            duration={500}
+          >
+            Destinations
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="no-underline hover:underline underline-offset-8"
+            to="booking"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Book
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="no-underline hover:underline underline-offset-8"
+            to="testimonials"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Views
+          </Link>
+        </li>
       </ul>
       <div className="hidden md:flex">
         <BiSearch className="mr-4" size={20} />
@@ -58,7 +103,7 @@ const Navbar = () => {
           <li className="border-b">Countries</li>
           <li className="border-b">Destinations</li>
           <li className="border-b">Book</li>
-          <li className="border-b">Testimonials</li>
+          <li className="border-b">Views</li>
           <div className="flex flex-col">
             <button className="my-6">Search</button>
             <button>Account</button>
