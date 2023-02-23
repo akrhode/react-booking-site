@@ -67,10 +67,10 @@ const Navbar = () => {
         <li>
           <Link
             className="no-underline hover:underline underline-offset-8"
-            to="testimonials"
+            to="views"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-40}
             duration={500}
           >
             Views

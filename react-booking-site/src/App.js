@@ -5,6 +5,7 @@ import Destinations from "./components/Countries.jsx";
 import Book from "./components/Book.jsx";
 import Selects from "./components/Selects.jsx";
 import Cards from "./components/Cards.jsx";
+import Carousel from "./components/Carousel.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Selects />
       <Cards />
       <Book />
+      <Carousel />
     </div>
   );
 }
