@@ -6,6 +6,7 @@ import Book from "./components/Book.jsx";
 import Selects from "./components/Selects.jsx";
 import Cards from "./components/Cards.jsx";
 import Carousel from "./components/Carousel.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Cards />
       <Book />
       <Carousel />
+      <Footer />
     </div>
   );
 }
