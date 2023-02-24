@@ -4,6 +4,7 @@ import Greece from "../assets/Greece.jpg";
 import Spain from "../assets/Spain.jpg";
 import Portugal from "../assets/Portugal.jpg";
 import Selects from "./Selects";
+import { Link } from "react-router-dom";
 
 const Countries = () => {
   return (
@@ -12,13 +13,21 @@ const Countries = () => {
         Countries
       </h1>
       <p className="text-center py-4">
-        Learn More About Life as a Digital Nomad at Your Dream Destination
+        Learn More About Expat Life at Your Dream Destination
       </p>
       <div className="max-w-[1240] grid grid-rows-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 py-4 gap-2 md:gap-4 sm:gap-8">
-        <Selects bg={Greece} text="Greece" />
-        <Selects bg={Italy} text="Italy" />
-        <Selects bg={Spain} text="Spain" />
-        <Selects bg={Portugal} text="Portugal" />
+        <Link to="/BlogGreece">
+          <Selects bg={Greece} text="Greece" />
+        </Link>
+        <Link to="/BlogItaly">
+          <Selects bg={Italy} text="Italy" />
+        </Link>
+        <Link to="/BlogSpain">
+          <Selects bg={Spain} text="Spain" />
+        </Link>
+        <Link to="/BlogPortugal">
+          <Selects bg={Portugal} text="Portugal" />
+        </Link>
       </div>
     </div>
   );

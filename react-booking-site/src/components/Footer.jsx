@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="max-w-[1240px] mx-auto flex flex-col px-2">
         <div className="sm:flex text-center justify-between items-center">
           <h1 className="pl-3">ExpatDeals</h1>
-          <div className="flex justify-between w-full sm:max-w-[280px] my-4 pr-4">
+          <div className="flex justify-between w-full sm:max-w-[280px] my-4 pl-4 pr-4">
             <FaInstagram className="icon" />
             <FaFacebook className="icon" />
             <FaTwitter className="icon" />
