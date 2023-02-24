@@ -56,26 +56,31 @@ function BlogGreece() {
           <img
             className="w-full h-full object-cover col-span-2 md:col-span-3 row-span-2"
             src="https://images.pexels.com/photos/164041/pexels-photo-164041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Beach in Greece"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/984888/pexels-photo-984888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Restaurant in Athens"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/163864/santorini-oia-greece-travel-163864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Santorini in Greece"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/347141/pexels-photo-347141.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Greek house"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/3732499/pexels-photo-3732499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Greek coastline"
           />
         </div>
       </div>

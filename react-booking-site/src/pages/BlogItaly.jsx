@@ -56,26 +56,31 @@ function BlogItaly() {
           <img
             className="w-full h-full object-cover col-span-2 md:col-span-3 row-span-2"
             src="https://images.pexels.com/photos/1797121/pexels-photo-1797121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Coastline in Southern Italy"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/161907/venice-grand-canal-water-boats-161907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Venice"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/1731834/pexels-photo-1731834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Italian Winegrowing"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/753639/pexels-photo-753639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Rome at night"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/5563009/pexels-photo-5563009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Trevi Fountain in Rome"
           />
         </div>
       </div>

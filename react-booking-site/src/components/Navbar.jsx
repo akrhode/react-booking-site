@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { BsPerson } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
-import { HiOutlineMenu, HiOutlineMenuAlt4 } from "react-icons/hi";
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import {
   FaInstagram,
   FaFacebook,

@@ -45,7 +45,7 @@ const Carousel = () => {
         {sliderData.map((item, index) => (
           <div className={index === slide ? "opacity-100" : "opacity-0"}>
             {index === slide && (
-              <img className="w-full rounded-md" src={item.url} alt="/"></img>
+              <img className="w-full rounded-md" src={item.url} alt=""></img>
             )}
           </div>
         ))}

@@ -56,26 +56,31 @@ function BlogPortugal() {
           <img
             className="w-full h-full object-cover col-span-2 md:col-span-3 row-span-2"
             src="https://cdn.pixabay.com/photo/2017/12/20/10/48/portugal-3029665_1280.jpg"
+            alt="Benagil Cave"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/8424840/pexels-photo-8424840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Coastline in Algarve"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://cdn.pixabay.com/photo/2017/10/02/18/55/belem-tower-2809818_1280.jpg"
+            alt="Belem Tower"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://cdn.pixabay.com/photo/2015/07/05/21/41/alfama-832816_1280.jpg"
+            alt="Lisbon"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://cdn.pixabay.com/photo/2019/08/04/19/20/portugal-4384552_1280.jpg"
+            alt="Lisbon tram"
           />
         </div>
       </div>

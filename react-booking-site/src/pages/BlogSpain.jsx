@@ -56,26 +56,31 @@ function BlogSpain() {
           <img
             className="w-full h-full object-cover col-span-2 md:col-span-3 row-span-2"
             src="https://cdn.pixabay.com/photo/2019/06/16/20/50/windmills-4278679_1280.jpg"
+            alt="Windmills in Castile-la-Mancha"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Barcelona in the evening"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://cdn.pixabay.com/photo/2019/10/03/09/38/spain-4522800_1280.jpg"
+            alt="The Alhambra"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://images.pexels.com/photos/14234129/pexels-photo-14234129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Coastline in Spain"
           />
 
           <img
             className="w-full h-full object-cover"
             src="https://cdn.pixabay.com/photo/2015/11/18/16/03/valencia-1049389_1280.jpg"
+            alt="Valencia City of Arts and Sciences"
           />
         </div>
       </div>
