@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import BlogGreece from "./pages/BlogGreece";
-import BlogItaly from "./pages/BlogItaly";
-import BlogSpain from "./pages/BlogSpain";
-import BlogPortugal from "./pages/BlogPortugal";
+import { createHashRouter, RouterProvider } from "react-router-dom";
+import BlogGreece from "./pages/BlogGreece.jsx";
+import BlogItaly from "./pages/BlogItaly.jsx";
+import BlogSpain from "./pages/BlogSpain.jsx";
+import BlogPortugal from "./pages/BlogPortugal.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
@@ -31,8 +31,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
